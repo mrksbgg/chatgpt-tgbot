@@ -1,8 +1,7 @@
-# chatgpt-tgbot
-ChatGPT telegram bot on pyrogram, that I made in 1 hour (i was bored lol)
 # ChatGPT Telegram BOT
 
 Just a bot on pyrogram, that uses OpenAI API.
+And yes, i know that the code is trash.
 
 ## Setup
 
