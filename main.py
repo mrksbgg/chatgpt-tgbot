@@ -29,7 +29,7 @@ app = Client(
 
 @app.on_message(filters.command(["start"]))
 def startcmd(client, message):
-    message.reply('🤖 ChatGPT now in Telegram! It's absolutely free, you don't need to subscribe anywhere.\n\nCommands:\n/gpt request - generates request')
+    message.reply('🤖 ChatGPT now in Telegram! It\'s absolutely free, you don\'t need to subscribe anywhere.\n\nCommands:\n/gpt request - generates request')
 
 # on /gpt it sends request to ChatGPT and sends answer 
 @app.on_message(filters.command(["gpt"]))
